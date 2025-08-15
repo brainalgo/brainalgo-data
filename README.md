@@ -15,11 +15,14 @@ brainalgo-data/
 │   │   └── founders.json  # Team member information
 │   ├── products/
 │   │   └── products.json  # Product information
+│   ├── applications/
+│   │   └── applications.json  # Job applications (admin only)
 │   └── config/
 │       └── site.json      # Site-wide configuration
 └── schemas/
-    ├── founder.schema.json    # Team member data structure
-    └── product.schema.json    # Product data structure
+    ├── founder.schema.json      # Team member data structure
+    ├── product.schema.json      # Product data structure
+    └── application.schema.json  # Application data structure
 ```
 
 ## 🚀 Quick Start
