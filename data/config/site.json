@@ -1,0 +1,20 @@
+{
+  "site": {
+    "name": "BrainAlgo",
+    "tagline": "Empowering Innovation Through Technology",
+    "description": "Building platforms and tools that empower bright minds to solve complex problems and drive technological advancement.",
+    "contact_email": "hello@brainalgo.in",
+    "social": {
+      "github": "https://github.com/brainalgo",
+      "linkedin": "https://linkedin.com/company/brainalgo",
+      "twitter": "https://twitter.com/brainalgo"
+    }
+  },
+  "features": {
+    "show_testimonials": true,
+    "show_stats": true,
+    "show_join_cta": true
+  },
+  "version": "1.0.0",
+  "last_updated": "2025-01-15"
+}

@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "avinesh",
+      "name": "Avinesh Singh",
+      "role": "Co-Founder & Chief Technology Officer",
+      "company": "Amazon Web Services (AWS)",
+      "bio": "Software Engineer at AWS with 5+ years in software development and competitive programming expertise.",
+      "expertise": ["Algorithms", "System Design", "Full Stack", "AWS/Cloud", "Competitive Programming", "DevOps"],
+      "avatar": "AS",
+      "quote": "Technology has the power to transform industries and lives. At BrainAlgo, we're building platforms that don't just solve problems—they unlock human potential and drive meaningful innovation.",
+      "experience_years": 5,
+      "location": "India",
+      "order": 1
+    },
+    {
+      "id": "rashi",
+      "name": "Rashi Kumari",
+      "role": "Co-Founder & Chief Learning Officer",
+      "company": "BPCL (Bharat Petroleum Corporation)",
+      "bio": "Senior Engineer at BPCL with 4+ years in enterprise software and passionate about education.",
+      "expertise": ["Content Strategy", "Software Engineering", "Problem Solving", "Education Design", "Data Analytics", "UX Design"],
+      "avatar": "R",
+      "quote": "Innovation happens when brilliant minds have the right tools and environment to thrive. We're creating that ecosystem where ideas become reality and potential becomes impact.",
+      "experience_years": 4,
+      "location": "India",
+      "order": 2
+    },
+    {
+      "id": "alex",
+      "name": "Alex Chen",
+      "role": "Head of Product Innovation",
+      "company": "Tech Startup Veteran",
+      "bio": "Product strategist with 6+ years building scalable platforms and leading cross-functional teams.",
+      "expertise": ["Product Strategy", "User Experience", "Market Research", "Team Leadership", "Agile Development", "Growth Hacking"],
+      "avatar": "AC",
+      "quote": "Great products are born from understanding real user needs and having the courage to build something truly different.",
+      "experience_years": 6,
+      "location": "Singapore",
+      "order": 3
+    },
+    {
+      "id": "maya",
+      "name": "Maya Malhotra",
+      "role": "Lead Data Scientist",
+      "company": "AI Research Lab",
+      "bio": "Data scientist with 5+ years in machine learning and AI, passionate about solving complex problems with data.",
+      "expertise": ["Machine Learning", "Data Analytics", "Python", "AI Research", "Statistical Modeling", "Deep Learning"],
+      "avatar": "MM",
+      "quote": "Data tells stories that can transform businesses and lives. We're building the future with intelligent insights.",
+      "experience_years": 5,
+      "location": "Bangalore",
+      "order": 4
+    }
+  ],
+  "count": 4
+}

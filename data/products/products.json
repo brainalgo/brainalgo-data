@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "learn",
+      "name": "BrainAlgo Learn",
+      "description": "Comprehensive learning platform for algorithms, data structures, and competitive programming",
+      "url": "https://learn.brainalgo.in",
+      "status": "active",
+      "features": [
+        "500+ Interactive Lessons",
+        "Live Code Editor with Python Support",
+        "Community Discussion Forums",
+        "Progress Tracking & Certificates"
+      ],
+      "stats": {
+        "students": "10,000+",
+        "lessons": "500+",
+        "completion_rate": "85%"
+      }
+    },
+    {
+      "id": "play",
+      "name": "BrainAlgo Play",
+      "description": "Interactive games and puzzles for logical thinking and problem-solving skills",
+      "url": "https://play.brainalgo.in",
+      "status": "coming-soon",
+      "features": [
+        "Logic Puzzles & Brain Teasers",
+        "Mathematical Problem Games",
+        "Competitive Challenges",
+        "Leaderboards & Achievements"
+      ],
+      "expected_launch": "Q2 2025"
+    }
+  ],
+  "count": 2
+}

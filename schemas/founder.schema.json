@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Team Member Schema",
+  "description": "Schema for BrainAlgo team member data",
+  "type": "object",
+  "required": ["id", "name", "role", "company", "bio", "expertise", "avatar", "order"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (lowercase, no spaces)",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name of the team member",
+      "minLength": 2,
+      "maxLength": 50
+    },
+    "role": {
+      "type": "string",
+      "description": "Job title or role",
+      "minLength": 5,
+      "maxLength": 100
+    },
+    "company": {
+      "type": "string",
+      "description": "Current or previous company",
+      "minLength": 2,
+      "maxLength": 100
+    },
+    "bio": {
+      "type": "string",
+      "description": "Brief biography",
+      "minLength": 50,
+      "maxLength": 200
+    },
+    "expertise": {
+      "type": "array",
+      "description": "List of skills/expertise areas",
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 30
+      },
+      "minItems": 3,
+      "maxItems": 6
+    },
+    "avatar": {
+      "type": "string",
+      "description": "Initials for avatar display",
+      "minLength": 1,
+      "maxLength": 3,
+      "pattern": "^[A-Z]+$"
+    },
+    "quote": {
+      "type": "string",
+      "description": "Inspirational quote",
+      "minLength": 20,
+      "maxLength": 150
+    },
+    "experience_years": {
+      "type": "integer",
+      "description": "Years of experience",
+      "minimum": 0,
+      "maximum": 50
+    },
+    "location": {
+      "type": "string",
+      "description": "City, Country",
+      "minLength": 3,
+      "maxLength": 50
+    },
+    "order": {
+      "type": "integer",
+      "description": "Display order (1 = first)",
+      "minimum": 1
+    }
+  }
+}
