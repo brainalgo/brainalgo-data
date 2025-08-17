@@ -1,0 +1,50 @@
+[
+  {
+    "id": "scalability-fundamentals",
+    "title": "Scalability Fundamentals",
+    "description": "Learn the basics of horizontal and vertical scaling for distributed systems",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "25 min",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "load-balancing",
+    "title": "Load Balancing Strategies",
+    "description": "Understand different load balancing techniques and their applications",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "30 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "database-design",
+    "title": "Database Design and Sharding",
+    "description": "Master database design patterns, normalization, and sharding strategies",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "40 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "caching-strategies",
+    "title": "Caching Strategies and Patterns",
+    "description": "Learn different caching layers, cache invalidation, and distributed caching",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "35 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "microservices-architecture",
+    "title": "Microservices Architecture Design",
+    "description": "Design microservices systems with proper service boundaries and communication",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "45 min",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "system-design-case-studies",
+    "title": "System Design Case Studies",
+    "description": "Analyze real-world system designs like Twitter, Netflix, and Uber",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "60 min",
+    "difficulty": "Advanced"
+  }
+]

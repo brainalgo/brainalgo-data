@@ -1,0 +1,66 @@
+[
+  {
+    "id": "arrays-basics",
+    "title": "Arrays and Basic Operations",
+    "description": "Learn fundamental array operations, traversal, and basic algorithms",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "15 min",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "strings-manipulation",
+    "title": "String Manipulation Techniques",
+    "description": "Master string operations, pattern matching, and common string algorithms",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "20 min",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "linked-lists",
+    "title": "Linked Lists Implementation",
+    "description": "Understand linked list data structure, insertion, deletion, and traversal",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "25 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "stacks-queues",
+    "title": "Stacks and Queues",
+    "description": "Learn stack and queue operations, applications, and implementation details",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "18 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "binary-trees",
+    "title": "Binary Trees and Traversals",
+    "description": "Explore binary tree structure, traversal algorithms, and tree operations",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "30 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "dynamic-programming",
+    "title": "Dynamic Programming Fundamentals",
+    "description": "Master the art of dynamic programming with classic problems and patterns",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "45 min",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "graph-algorithms",
+    "title": "Graph Algorithms and Traversals",
+    "description": "Learn graph representation, BFS, DFS, and shortest path algorithms",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "40 min",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "sorting-algorithms",
+    "title": "Sorting Algorithms Comparison",
+    "description": "Compare different sorting algorithms, time complexity, and use cases",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "35 min",
+    "difficulty": "Intermediate"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "contest-strategies",
+    "title": "Contest Strategies and Time Management",
+    "description": "Learn effective strategies for competitive programming contests and time management",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "20 min",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "greedy-algorithms",
+    "title": "Greedy Algorithm Techniques",
+    "description": "Master greedy approach for solving optimization problems efficiently",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "25 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "number-theory",
+    "title": "Number Theory for Competitive Programming",
+    "description": "Essential number theory concepts including GCD, LCM, and modular arithmetic",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "35 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "advanced-dp",
+    "title": "Advanced Dynamic Programming Patterns",
+    "description": "Complex DP patterns including digit DP, tree DP, and optimization techniques",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "50 min",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "segment-trees",
+    "title": "Segment Trees and Range Queries",
+    "description": "Learn segment trees for efficient range queries and updates",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "40 min",
+    "difficulty": "Advanced"
+  },
+  {
+    "id": "graph-theory",
+    "title": "Advanced Graph Theory",
+    "description": "Complex graph algorithms including network flow and bipartite matching",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "45 min",
+    "difficulty": "Expert"
+  }
+]

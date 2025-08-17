@@ -1,0 +1,50 @@
+[
+  {
+    "id": "solid-principles",
+    "title": "SOLID Design Principles",
+    "description": "Master the five SOLID principles for writing maintainable and scalable code",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "30 min",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "design-patterns-creational",
+    "title": "Creational Design Patterns",
+    "description": "Learn Singleton, Factory, Builder, and other creational patterns",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "35 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "design-patterns-structural",
+    "title": "Structural Design Patterns",
+    "description": "Understand Adapter, Decorator, Facade, and other structural patterns",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "30 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "design-patterns-behavioral",
+    "title": "Behavioral Design Patterns",
+    "description": "Explore Observer, Strategy, Command, and other behavioral patterns",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "40 min",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": "object-modeling",
+    "title": "Object-Oriented Modeling",
+    "description": "Learn to model real-world problems using object-oriented principles",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "25 min",
+    "difficulty": "Beginner"
+  },
+  {
+    "id": "uml-diagrams",
+    "title": "UML Diagrams and Documentation",
+    "description": "Create effective UML diagrams for system design documentation",
+    "youtubeId": "dQw4w9WgXcQ",
+    "duration": "20 min",
+    "difficulty": "Beginner"
+  }
+]
