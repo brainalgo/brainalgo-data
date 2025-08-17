@@ -1,0 +1,47 @@
+[
+  {
+    "id": "leetcode",
+    "name": "LeetCode",
+    "description": "Practice coding problems",
+    "url": "https://leetcode.com",
+    "category": "practice",
+    "icon": "💻",
+    "color": "bg-yellow-500"
+  },
+  {
+    "id": "codeforces",
+    "name": "Codeforces", 
+    "description": "Competitive programming platform",
+    "url": "https://codeforces.com",
+    "category": "practice",
+    "icon": "🚀",
+    "color": "bg-red-500"
+  },
+  {
+    "id": "hackerrank",
+    "name": "HackerRank",
+    "description": "Coding challenges and contests",
+    "url": "https://hackerrank.com", 
+    "category": "practice",
+    "icon": "🎯",
+    "color": "bg-green-600"
+  },
+  {
+    "id": "system-design-primer",
+    "name": "System Design Primer",
+    "description": "Learn system design concepts",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "category": "learning",
+    "icon": "📚",
+    "color": "bg-blue-600"
+  },
+  {
+    "id": "visualgo",
+    "name": "VisuAlgo",
+    "description": "Visualize algorithms and data structures", 
+    "url": "https://visualgo.net",
+    "category": "learning",
+    "icon": "👁️",
+    "color": "bg-purple-600"
+  }
+]

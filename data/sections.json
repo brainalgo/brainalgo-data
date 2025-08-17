@@ -1,0 +1,34 @@
+[
+  {
+    "id": "dsa",
+    "title": "Data Structures & Algorithms",
+    "description": "Master fundamental data structures and algorithms",
+    "icon": "🔢",
+    "color": "bg-blue-500",
+    "order": 1
+  },
+  {
+    "id": "cp",
+    "title": "Competitive Programming", 
+    "description": "Solve challenging programming problems",
+    "icon": "🏆",
+    "color": "bg-green-500",
+    "order": 2
+  },
+  {
+    "id": "lld",
+    "title": "Low Level Design",
+    "description": "Design scalable software systems",
+    "icon": "🏗️", 
+    "color": "bg-purple-500",
+    "order": 3
+  },
+  {
+    "id": "hld",
+    "title": "High Level Design",
+    "description": "Architect distributed systems", 
+    "icon": "🏛️",
+    "color": "bg-orange-500",
+    "order": 4
+  }
+]
