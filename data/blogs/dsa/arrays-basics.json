@@ -1,0 +1,45 @@
+{
+  "id": "arrays-basics",
+  "title": "Arrays and Basic Operations",
+  "description": "Learn fundamental array operations, traversal, and basic algorithms",
+  "difficulty": "Beginner",
+  "duration": "15 min",
+  "youtubeId": "dQw4w9WgXcQ",
+  "content": {
+    "introduction": "Arrays are one of the most fundamental data structures in computer science. They provide a way to store multiple elements of the same type in a contiguous memory location, making them efficient for accessing elements by index.",
+    "sections": [
+      {
+        "title": "What are Arrays?",
+        "content": "An array is a collection of elements stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value.",
+        "code": "// Array declaration and initialization\nint[] numbers = {1, 2, 3, 4, 5};\nString[] names = new String[10];\n\n// Accessing elements\nint firstNumber = numbers[0];  // Gets 1\nint lastNumber = numbers[4];   // Gets 5"
+      },
+      {
+        "title": "Array Operations",
+        "content": "Arrays support several fundamental operations that form the basis of more complex algorithms. Let's explore the most common operations:",
+        "code": "public class ArrayOperations {\n    \n    // Traversal - visiting each element\n    public void printArray(int[] arr) {\n        for (int i = 0; i < arr.length; i++) {\n            System.out.print(arr[i] + \" \");\n        }\n    }\n    \n    // Search - finding an element\n    public int linearSearch(int[] arr, int target) {\n        for (int i = 0; i < arr.length; i++) {\n            if (arr[i] == target) {\n                return i;  // Return index\n            }\n        }\n        return -1;  // Not found\n    }\n    \n    // Insert at specific position\n    public int[] insertAt(int[] arr, int pos, int value) {\n        int[] newArr = new int[arr.length + 1];\n        \n        // Copy elements before position\n        for (int i = 0; i < pos; i++) {\n            newArr[i] = arr[i];\n        }\n        \n        // Insert new value\n        newArr[pos] = value;\n        \n        // Copy remaining elements\n        for (int i = pos; i < arr.length; i++) {\n            newArr[i + 1] = arr[i];\n        }\n        \n        return newArr;\n    }\n}"
+      },
+      {
+        "title": "Time Complexity Analysis",
+        "content": "Understanding the time complexity of array operations is crucial for writing efficient code. Here's a breakdown of common operations:",
+        "code": "/*\nArray Operation Time Complexities:\n\n1. Access by index: O(1)\n   - Direct memory access using index\n   \n2. Search (Linear): O(n)\n   - Must check each element in worst case\n   \n3. Insertion at end: O(1)\n   - If space available, just add element\n   \n4. Insertion at beginning/middle: O(n)\n   - Must shift existing elements\n   \n5. Deletion: O(n)\n   - Must shift elements to fill gap\n   \n6. Traversal: O(n)\n   - Must visit each element once\n*/"
+      },
+      {
+        "title": "Common Array Algorithms",
+        "content": "Let's implement some fundamental algorithms that work with arrays:",
+        "code": "public class ArrayAlgorithms {\n    \n    // Find maximum element\n    public int findMax(int[] arr) {\n        if (arr.length == 0) return Integer.MIN_VALUE;\n        \n        int max = arr[0];\n        for (int i = 1; i < arr.length; i++) {\n            if (arr[i] > max) {\n                max = arr[i];\n            }\n        }\n        return max;\n    }\n    \n    // Reverse array in-place\n    public void reverseArray(int[] arr) {\n        int left = 0;\n        int right = arr.length - 1;\n        \n        while (left < right) {\n            // Swap elements\n            int temp = arr[left];\n            arr[left] = arr[right];\n            arr[right] = temp;\n            \n            left++;\n            right--;\n        }\n    }\n    \n    // Two Sum Problem\n    public int[] twoSum(int[] nums, int target) {\n        Map<Integer, Integer> map = new HashMap<>();\n        \n        for (int i = 0; i < nums.length; i++) {\n            int complement = target - nums[i];\n            \n            if (map.containsKey(complement)) {\n                return new int[]{map.get(complement), i};\n            }\n            \n            map.put(nums[i], i);\n        }\n        \n        return new int[]{}; // No solution found\n    }\n}"
+      },
+      {
+        "title": "Best Practices",
+        "content": "Here are some important best practices when working with arrays:",
+        "points": [
+          "Always check array bounds to avoid IndexOutOfBoundsException",
+          "Use enhanced for loops when you don't need the index",
+          "Consider using ArrayList for dynamic sizing requirements",
+          "Initialize arrays with appropriate size to avoid frequent resizing",
+          "Use meaningful variable names for array indices"
+        ],
+        "code": "// Good practices example\npublic class ArrayBestPractices {\n    \n    // Use enhanced for loop when index not needed\n    public int sum(int[] numbers) {\n        int total = 0;\n        for (int num : numbers) {  // Enhanced for loop\n            total += num;\n        }\n        return total;\n    }\n    \n    // Always validate input\n    public double average(int[] numbers) {\n        if (numbers == null || numbers.length == 0) {\n            throw new IllegalArgumentException(\"Array cannot be null or empty\");\n        }\n        \n        return (double) sum(numbers) / numbers.length;\n    }\n    \n    // Use meaningful names\n    public void processStudentGrades(int[] grades) {\n        for (int studentIndex = 0; studentIndex < grades.length; studentIndex++) {\n            int currentGrade = grades[studentIndex];\n            // Process grade...\n        }\n    }\n}"
+      }
+    ]
+  }
+}
