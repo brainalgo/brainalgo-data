@@ -70,6 +70,20 @@
     "tags": ["interviews", "skills", "certification", "career"]
   },
   {
+    "id": "topcoder",
+    "name": "TopCoder",
+    "description": "Elite competitive programming platform with algorithmic challenges",
+    "url": "https://topcoder.com",
+    "category": "practice",
+    "logo": "https://www.topcoder.com/favicon.ico",
+    "preview": "https://www.topcoder.com/wp-content/uploads/2021/03/topcoder-logo.png",
+    "color": "bg-blue-700",
+    "rating": 4.5,
+    "users": "1.5M+",
+    "features": ["Algorithm competitions", "Data science challenges", "Design contests", "Development projects"],
+    "tags": ["competitive-programming", "algorithms", "data-science", "elite"]
+  },
+  {
     "id": "drawio",
     "name": "Draw.io",
     "description": "Professional diagram and flowchart maker with extensive template library",
@@ -124,6 +138,34 @@
     "users": "100M+",
     "features": ["UI/UX design", "Prototyping", "Real-time collaboration", "Design systems"],
     "tags": ["ui-design", "prototyping", "collaboration", "design-systems"]
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "description": "Advanced collaborative whiteboard for system design and architecture planning",
+    "url": "https://miro.com",
+    "category": "design",
+    "logo": "https://miro.com/favicon.ico",
+    "preview": "https://miro.com/static/images/page-index/hero-image.png",
+    "color": "bg-yellow-400",
+    "rating": 4.7,
+    "users": "50M+",
+    "features": ["System architecture", "Mind mapping", "Agile workflows", "Templates library"],
+    "tags": ["whiteboard", "system-design", "architecture", "collaboration"]
+  },
+  {
+    "id": "lucidchart",
+    "name": "Lucidchart",
+    "description": "Professional diagramming for system architecture and database design",
+    "url": "https://lucidchart.com",
+    "category": "design",
+    "logo": "https://www.lucidchart.com/favicon.ico",
+    "preview": "https://www.lucidchart.com/pages/landing/lucidchart-og-image.png",
+    "color": "bg-orange-600",
+    "rating": 4.5,
+    "users": "15M+",
+    "features": ["Database ERDs", "Network diagrams", "AWS architecture", "Process flows"],
+    "tags": ["diagrams", "database-design", "aws", "enterprise"]
   },
   {
     "id": "visualgo",
@@ -210,6 +252,34 @@
     "tags": ["qa", "community", "programming", "help"]
   },
   {
+    "id": "high-scalability",
+    "name": "High Scalability",
+    "description": "Real-world system design case studies from top tech companies",
+    "url": "http://highscalability.com",
+    "category": "learning",
+    "logo": "http://highscalability.com/favicon.ico",
+    "preview": "http://highscalability.com/images/highscalability-logo.png",
+    "color": "bg-purple-700",
+    "rating": 4.6,
+    "users": "500K+",
+    "features": ["Case studies", "Architecture patterns", "Scalability lessons", "Industry insights"],
+    "tags": ["system-design", "scalability", "case-studies", "architecture"]
+  },
+  {
+    "id": "aws-architecture",
+    "name": "AWS Architecture Center",
+    "description": "Official AWS architecture patterns and best practices for cloud systems",
+    "url": "https://aws.amazon.com/architecture",
+    "category": "learning",
+    "logo": "https://aws.amazon.com/favicon.ico",
+    "preview": "https://d1.awsstatic.com/architecture-diagrams/ArchitectureDiagrams/web-app-hosting-architecture.png",
+    "color": "bg-orange-500",
+    "rating": 4.7,
+    "users": "10M+",
+    "features": ["Reference architectures", "Well-architected framework", "Best practices", "Cost optimization"],
+    "tags": ["aws", "cloud", "architecture", "scalability"]
+  },
+  {
     "id": "notion",
     "name": "Notion",
     "description": "All-in-one workspace for notes, planning, and project management",
@@ -252,6 +322,20 @@
     "tags": ["code-editor", "development", "debugging", "extensions"]
   },
   {
+    "id": "jetbrains-toolbox",
+    "name": "JetBrains Toolbox",
+    "description": "Professional IDEs for enterprise development with advanced features",
+    "url": "https://jetbrains.com/toolbox-app",
+    "category": "productivity",
+    "logo": "https://www.jetbrains.com/favicon.ico",
+    "preview": "https://www.jetbrains.com/toolbox-app/img/toolbox_hero.png",
+    "color": "bg-purple-600",
+    "rating": 4.7,
+    "users": "8M+",
+    "features": ["IntelliJ IDEA", "PyCharm", "WebStorm", "Advanced refactoring"],
+    "tags": ["ide", "enterprise", "refactoring", "professional"]
+  },
+  {
     "id": "replit",
     "name": "Replit",
     "description": "Online IDE for instant coding, collaboration, and deployment",
@@ -278,5 +362,75 @@
     "users": "100M+",
     "features": ["Version control", "Code collaboration", "Issue tracking", "CI/CD integration"],
     "tags": ["git", "version-control", "collaboration", "open-source"]
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "description": "Complete DevOps platform with integrated CI/CD and project management",
+    "url": "https://gitlab.com",
+    "category": "productivity",
+    "logo": "https://gitlab.com/favicon.ico",
+    "preview": "https://about.gitlab.com/images/press/logo/png/gitlab-logo-gray-rgb.png",
+    "color": "bg-orange-700",
+    "rating": 4.6,
+    "users": "30M+",
+    "features": ["DevOps platform", "CI/CD pipelines", "Issue tracking", "Security scanning"],
+    "tags": ["devops", "ci-cd", "git", "enterprise"]
+  },
+  {
+    "id": "docker",
+    "name": "Docker Hub",
+    "description": "Container registry and orchestration platform for modern applications",
+    "url": "https://hub.docker.com",
+    "category": "productivity",
+    "logo": "https://www.docker.com/favicon.ico",
+    "preview": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+    "color": "bg-blue-600",
+    "rating": 4.7,
+    "users": "20M+",
+    "features": ["Container images", "Automated builds", "Team collaboration", "Registry management"],
+    "tags": ["containers", "docker", "devops", "deployment"]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "description": "Container orchestration platform for scalable application deployment",
+    "url": "https://kubernetes.io",
+    "category": "productivity",
+    "logo": "https://kubernetes.io/favicon.png",
+    "preview": "https://kubernetes.io/images/kubernetes-horizontal-color.png",
+    "color": "bg-blue-500",
+    "rating": 4.6,
+    "users": "5M+",
+    "features": ["Container orchestration", "Auto-scaling", "Service discovery", "Rolling updates"],
+    "tags": ["kubernetes", "orchestration", "containers", "scalability"]
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "description": "Infrastructure as Code tool for building and managing cloud resources",
+    "url": "https://terraform.io",
+    "category": "productivity",
+    "logo": "https://www.terraform.io/favicon.ico",
+    "preview": "https://www.terraform.io/img/logo-hashicorp.svg",
+    "color": "bg-purple-700",
+    "rating": 4.5,
+    "users": "3M+",
+    "features": ["Infrastructure as Code", "Multi-cloud support", "State management", "Resource planning"],
+    "tags": ["iac", "terraform", "cloud", "infrastructure"]
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "description": "API development and testing platform for modern applications",
+    "url": "https://postman.com",
+    "category": "productivity",
+    "logo": "https://www.postman.com/favicon.ico",
+    "preview": "https://www.postman.com/img/v2/logo-postman.svg",
+    "color": "bg-orange-500",
+    "rating": 4.6,
+    "users": "25M+",
+    "features": ["API testing", "Documentation", "Mock servers", "Team collaboration"],
+    "tags": ["api", "testing", "documentation", "development"]
   }
 ]
