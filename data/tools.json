@@ -2,7 +2,7 @@
   {
     "id": "leetcode",
     "name": "LeetCode",
-    "description": "Practice coding problems",
+    "description": "Practice coding problems and prepare for interviews",
     "url": "https://leetcode.com",
     "category": "practice",
     "icon": "💻",
@@ -11,29 +11,65 @@
   {
     "id": "codeforces",
     "name": "Codeforces", 
-    "description": "Competitive programming platform",
+    "description": "Competitive programming contests and practice",
     "url": "https://codeforces.com",
     "category": "practice",
     "icon": "🚀",
     "color": "bg-red-500"
   },
   {
+    "id": "codechef",
+    "name": "CodeChef",
+    "description": "Programming contests and skill development",
+    "url": "https://codechef.com",
+    "category": "practice",
+    "icon": "👨‍🍳",
+    "color": "bg-orange-500"
+  },
+  {
+    "id": "atcoder",
+    "name": "AtCoder",
+    "description": "Japanese competitive programming platform",
+    "url": "https://atcoder.jp",
+    "category": "practice",
+    "icon": "🎌",
+    "color": "bg-blue-500"
+  },
+  {
     "id": "hackerrank",
     "name": "HackerRank",
-    "description": "Coding challenges and contests",
+    "description": "Coding challenges and skill assessments",
     "url": "https://hackerrank.com", 
     "category": "practice",
     "icon": "🎯",
     "color": "bg-green-600"
   },
   {
-    "id": "system-design-primer",
-    "name": "System Design Primer",
-    "description": "Learn system design concepts",
-    "url": "https://github.com/donnemartin/system-design-primer",
-    "category": "learning",
-    "icon": "📚",
+    "id": "drawio",
+    "name": "Draw.io",
+    "description": "Free online diagram and flowchart maker",
+    "url": "https://draw.io",
+    "category": "design",
+    "icon": "📊",
     "color": "bg-blue-600"
+  },
+  {
+    "id": "tldraw",
+    "name": "TLDraw",
+    "description": "Collaborative whiteboard for sketching ideas",
+    "url": "https://tldraw.com",
+    "category": "design",
+    "icon": "✏️",
+    "color": "bg-purple-600"
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw",
+    "description": "Virtual collaborative whiteboard tool",
+    "url": "https://excalidraw.com",
+    "category": "design",
+    "icon": "🎨",
+    "color": "bg-pink-500"
   },
   {
     "id": "visualgo",
@@ -42,6 +78,87 @@
     "url": "https://visualgo.net",
     "category": "learning",
     "icon": "👁️",
-    "color": "bg-purple-600"
+    "color": "bg-indigo-600"
+  },
+  {
+    "id": "system-design-primer",
+    "name": "System Design Primer",
+    "description": "Learn system design concepts and patterns",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "category": "learning",
+    "icon": "📚",
+    "color": "bg-gray-600"
+  },
+  {
+    "id": "cp-algorithms",
+    "name": "CP-Algorithms",
+    "description": "Comprehensive competitive programming algorithms",
+    "url": "https://cp-algorithms.com",
+    "category": "learning",
+    "icon": "🧮",
+    "color": "bg-teal-600"
+  },
+  {
+    "id": "usaco-guide",
+    "name": "USACO Guide",
+    "description": "Complete competitive programming curriculum",
+    "url": "https://usaco.guide",
+    "category": "learning",
+    "icon": "🏆",
+    "color": "bg-amber-600"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "description": "All-in-one workspace for notes and planning",
+    "url": "https://notion.so",
+    "category": "productivity",
+    "icon": "📝",
+    "color": "bg-slate-600"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "description": "Knowledge management and note-taking",
+    "url": "https://obsidian.md",
+    "category": "productivity",
+    "icon": "🔗",
+    "color": "bg-violet-600"
+  },
+  {
+    "id": "vscode",
+    "name": "VS Code",
+    "description": "Free source code editor by Microsoft",
+    "url": "https://code.visualstudio.com",
+    "category": "productivity",
+    "icon": "💾",
+    "color": "bg-blue-700"
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "description": "Online IDE for coding and collaboration",
+    "url": "https://replit.com",
+    "category": "productivity",
+    "icon": "⚡",
+    "color": "bg-orange-600"
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "description": "Version control and code collaboration",
+    "url": "https://github.com",
+    "category": "productivity",
+    "icon": "🐙",
+    "color": "bg-gray-800"
+  },
+  {
+    "id": "stackoverflow",
+    "name": "Stack Overflow",
+    "description": "Programming Q&A community",
+    "url": "https://stackoverflow.com",
+    "category": "learning",
+    "icon": "❓",
+    "color": "bg-orange-700"
   }
 ]
